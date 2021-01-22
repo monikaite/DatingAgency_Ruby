@@ -1,0 +1,30 @@
+Name: Monika Pociute
+Student ID: 17366836
+
+1st Commit: Adjusted array structure to accommodate gender, hobbies, and fussiness.
+Prints as expected
+
+3nd Commit: add_single method also sorts the singles according to fussiness, in ascending order.
+Prints as expected
+Algorithm now takes single that is most fussy and least fussy on a date first
+Prints as expected
+Couples and singles now match the expected output, other than Reese and Quinn
+
+4th Commit: added an algorithm that implements aga and zin aspect of the program.
+Haven't yet tested it, so don't know if it works.
+
+5th Commit: improved on the aga and zin algorithms.
+They work, but get stuck on an infinite loop when the avg_desirability method is called.
+
+6th Commit: Fixed the bug where program runs on an infinite loop
+The output for the short singles list is returned correctly
+The output for long singles list is not returned correctly
+
+I didn't write up the incrementing of desirability when a zin compatible couple is passed through, because I didn't know how to do that.
+I didn't write up unit tests.
+
+List is sorted according to fussiness in ascending order.
+Hobbies are put into their own array.
+Aga and Zin methods working.
+Aga takes the length of the intersection of the hobbies arrays of the singles, and if not 0 then they are compatible.
+Match method first checks for Aga and Zin compatibility, then if one is true, continues to the average desirability method.
